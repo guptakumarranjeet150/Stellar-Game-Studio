@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "build:docs": "tsc -b && vite build --outDir ../docs --emptyOutDir --base=/Stellar-Game-Studio/",
+    "dev": "node init && vite",
+    "build": "node init && tsc -b && vite build",
+    "build:docs": "node init && tsc -b && vite build --outDir ../docs --emptyOutDir --base=/Stellar-Game-Studio/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
