@@ -11,8 +11,6 @@ deployment.json
 bindings/
 
 # Environment
-.env
-.env.local
 
 # Dependencies
 node_modules/
@@ -31,7 +29,6 @@ frontend-template/*.tsbuildinfo
 *-frontend/*.tsbuildinfo
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -43,3 +40,4 @@ Thumbs.db
 # MCP server
 mcp/dist/
 mcp/node_modules/
+config.bat
